@@ -14,7 +14,7 @@ dist-ssr
 *.local
 
 # Secret files and folders
-src/secret/
+
 
 # Editor directories and files
 .vscode/*
