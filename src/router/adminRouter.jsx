@@ -10,7 +10,7 @@ function AdminRouter(){
     return(
         <BrowserRouter>
         <Routes>
-        <Route path="/" element={<LoginPage/>} />
+        <Route path="/admin" element={<LoginPage/>} />
         <Route path="/admin/dashboard" element={<ProtectedRoute><AdminDashboard/></ProtectedRoute>} />
         <Route path="/admin/prorequestdetails" element={<ProtectedRoute><ProRequestDetails/></ProtectedRoute>} />
         
